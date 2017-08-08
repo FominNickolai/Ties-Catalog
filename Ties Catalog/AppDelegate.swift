@@ -16,7 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Save test bow tie
+        let bowtie = NSEntityDescription.insertNewObject(forEntityName: "Bowtie", into: self.persistentContainer.viewContext) as! Bowtie
+        bowtie.name = "My bow tie"
+        bowtie.lastWorn = NSDate()
+        
+        //Retrieve test bow tie
+        do {
+            let request = NSFetchRequest<Bowtie>(entityName: "Bowtie")
+            let ties = try self.persistentContainer.viewContext.fetch(request)
+            let sample = ties.first
+            print("Name: \(sample?.name), Worn: \(sample?.lastWorn)")
+        } catch let error as NSError {
+            print("Fetching error: \(error), \(error.userInfo)")
+        }
+        
         return true
     }
 

@@ -14,6 +14,8 @@
 		B738BCD91F39E5BE00C44497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B738BCD81F39E5BE00C44497 /* Assets.xcassets */; };
 		B738BCDC1F39E5BE00C44497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B738BCDA1F39E5BE00C44497 /* LaunchScreen.storyboard */; };
 		B738BCE41F39E97E00C44497 /* TiesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B738BCE31F39E97E00C44497 /* TiesData.plist */; };
+		B738BCEB1F3A00D700C44497 /* Bowtie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B738BCE91F3A00D700C44497 /* Bowtie+CoreDataClass.swift */; };
+		B738BCEC1F3A00D700C44497 /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B738BCEA1F3A00D700C44497 /* Bowtie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B738BCDB1F39E5BE00C44497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B738BCDD1F39E5BE00C44497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B738BCE31F39E97E00C44497 /* TiesData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TiesData.plist; sourceTree = "<group>"; };
+		B738BCE91F3A00D700C44497 /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bowtie+CoreDataClass.swift"; path = "Ties Catalog/Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B738BCEA1F3A00D700C44497 /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bowtie+CoreDataProperties.swift"; path = "Ties Catalog/Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		B738BCC21F39E5BE00C44497 = {
 			isa = PBXGroup;
 			children = (
+				B738BCE91F3A00D700C44497 /* Bowtie+CoreDataClass.swift */,
+				B738BCEA1F3A00D700C44497 /* Bowtie+CoreDataProperties.swift */,
 				B738BCCD1F39E5BE00C44497 /* Ties Catalog */,
 				B738BCCC1F39E5BE00C44497 /* Products */,
 			);
@@ -145,6 +151,8 @@
 				B738BCD11F39E5BE00C44497 /* ViewController.swift in Sources */,
 				B738BCCF1F39E5BE00C44497 /* AppDelegate.swift in Sources */,
 				B738BCD71F39E5BE00C44497 /* Ties_Catalog.xcdatamodeld in Sources */,
+				B738BCEB1F3A00D700C44497 /* Bowtie+CoreDataClass.swift in Sources */,
+				B738BCEC1F3A00D700C44497 /* Bowtie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
