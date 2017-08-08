@@ -13,6 +13,7 @@
 		B738BCD71F39E5BE00C44497 /* Ties_Catalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B738BCD51F39E5BE00C44497 /* Ties_Catalog.xcdatamodeld */; };
 		B738BCD91F39E5BE00C44497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B738BCD81F39E5BE00C44497 /* Assets.xcassets */; };
 		B738BCDC1F39E5BE00C44497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B738BCDA1F39E5BE00C44497 /* LaunchScreen.storyboard */; };
+		B738BCE41F39E97E00C44497 /* TiesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B738BCE31F39E97E00C44497 /* TiesData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B738BCD81F39E5BE00C44497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B738BCDB1F39E5BE00C44497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B738BCDD1F39E5BE00C44497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B738BCE31F39E97E00C44497 /* TiesData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TiesData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B738BCDA1F39E5BE00C44497 /* LaunchScreen.storyboard */,
 				B738BCDD1F39E5BE00C44497 /* Info.plist */,
 				B738BCD51F39E5BE00C44497 /* Ties_Catalog.xcdatamodeld */,
+				B738BCE31F39E97E00C44497 /* TiesData.plist */,
 			);
 			path = "Ties Catalog";
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				B738BCDC1F39E5BE00C44497 /* LaunchScreen.storyboard in Resources */,
 				B738BCD91F39E5BE00C44497 /* Assets.xcassets in Resources */,
 				B738BCD41F39E5BE00C44497 /* Main.storyboard in Resources */,
+				B738BCE41F39E97E00C44497 /* TiesData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
