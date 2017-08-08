@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+        
     //MARK: - IBOoutlets
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var imageView: UIImageView!
